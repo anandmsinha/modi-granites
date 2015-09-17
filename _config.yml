@@ -10,6 +10,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 port: 3000
 
+gems:
+  - jekyll-sitemap
+
 exclude: [node_modules, gulpfile.js, _js] # Ignore _js folder as well so we only reload on js file change
 
 # Build settings

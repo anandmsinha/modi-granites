@@ -1,0 +1,7 @@
+scheme: ftp
+host: chanantechnologies.net
+username: chanandev@chanantechnologies.com
+password: 'p#l9qJGI5}od'
+path: /modi-granites
+local_path: _site/
+passive: true
