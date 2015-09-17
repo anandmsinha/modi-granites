@@ -5,3 +5,6 @@ password: 'p#l9qJGI5}od'
 path: /modi-granites
 local_path: _site/
 passive: true
+
+additional:
+  - _site: /
