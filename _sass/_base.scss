@@ -11,6 +11,35 @@ body {
 h1, h2, h3, h4, h5, h6, .nav , .rms-client-name {
   font-family: 'Oswald', sans-serif;
 }
+.home-section-1 {
+  background: url('../img/home-bg.png') no-repeat;
+  background-size: cover;
+  height: 400px;
+  .navbar-brand {
+    background: url('../img/logo-bg.png') no-repeat;
+    background-size: contain;
+    height: 64px;
+    padding: 0 0;
+    img {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    &:hover, &:focus, &:active {
+      color: red;
+    }
+    &.active {
+      color: red;
+      background-color: transparent;
+    }
+  }
+}
 .footer {
   position: absolute;
   bottom: 0;
