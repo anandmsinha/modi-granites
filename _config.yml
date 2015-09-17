@@ -10,7 +10,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 port: 3000
 
-exclude: [node_modules, gulpfile.js]
+exclude: [node_modules, gulpfile.js, _js] # Ignore _js folder as well so we only reload on js file change
 
 # Build settings
 markdown: kramdown
