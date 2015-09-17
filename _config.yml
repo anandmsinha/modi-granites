@@ -10,5 +10,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 port: 3000
 
+exclude: [node_modules, gulpfile.js]
+
 # Build settings
 markdown: kramdown
