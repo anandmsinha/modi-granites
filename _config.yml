@@ -1,13 +1,14 @@
 # Site settings
 title: Modi Granites Pvt. Ltd.
-email: website@domain.com
+email: info@modigranites.com
 description: > # this means to ignore newlines until "baseurl:"
-  Awesome website description
+  Modi Granites Pvt. Ltd., Established in the year 2012 is a young company by age, but vastly experienced in the
+  granite field through its management. The promoters of Modi Granites Pvt. Ltd. have been associated with the
+  industry for more than 20 years.
   here
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.modigranites.com" # the base hostname & protocol for your site
+twitter_username: modigranites
 port: 3000
 
 gems:
