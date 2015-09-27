@@ -1,0 +1,59 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .container-non-responsive {
+    width: 320px;
+  }
+  .page-content {
+    width: 300px;
+  }
+  .navbar-nav {
+    float: left !important;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .container-non-responsive {
+    width: 480px;
+  }
+  .page-content {
+    width: 440px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container-non-responsive {
+    width: 768px;
+  }
+  .page-content {
+    width: 728px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .container-non-responsive {
+    width: 940px;
+  }
+  .page-content {
+    width: 940px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .navbar-nav {
+    float: right !important;
+  }
+  .container-non-responsive {
+    width: 1170px;
+  }
+  .page-content {
+    width: 1140px;
+  }
+}
